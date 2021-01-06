@@ -38,6 +38,26 @@ git clone https://github.com/Krishna2709/TransferLearning_ImageClassification_Ke
 - math
 - matplotlib
 
+## Steps
+a. Model Building
+1. Load the required packages
+2. Load and augment the data
+3. Define and train the model
+4. Prediction on example images
+
+b. Analysis
+1. Load the data and predict their categories
+2. Accuracy of the prediction
+3. Analyze the model predictions
+
+``` 
+get_images_with_sorted_probabilities-
+  arguments: predictions, get_highest_probability:True/Flase, label:category, number_of_items:int(number of images), only_false_predictions:True/False
+
+display-
+  arguments: probability values from the query, message to display
+```
+
 ## Analyzing model results
 Looking at model predictions give an intuition how well the model is working and areas where the model need to be tuned.
 1. Which images are we most confident about being forest or glacier?
@@ -46,8 +66,8 @@ Looking at model predictions give an intuition how well the model is working and
 
 ## To-do
 - [x] Add model.h5
-- [ ] Add steps in building the project.
-- [ ] Describe the functions used in the code.
+- [x] Add steps in building the project.
+- [x] Describe the functions used in the code.
 
-## Resources
+## Credits & Resources
 [Practical Deep Learning for Cloud, Mobile & Edge - Anirudh Koul, Siddha Ganju & Meher Kasam](https://www.oreilly.com/library/view/practical-deep-learning/9781492034858/)
